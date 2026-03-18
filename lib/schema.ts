@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 export const cardFormSchema = z.object({
-  template: z.enum(["neon-license", "civic-profile", "travel-pass"]),
+  template: z.enum(["neon-license", "civic-profile", "travel-pass", "jp-formal", "win95", "winxp", "win-aero"]),
   imageShape: z.enum(["circle", "rounded", "square"]),
   characterName: z.string().max(40, "40文字以内で入力してください"),
   alias: z.string().max(30, "30文字以内で入力してください"),

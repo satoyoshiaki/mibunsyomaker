@@ -1,4 +1,11 @@
-export type TemplateId = "neon-license" | "civic-profile" | "travel-pass";
+export type TemplateId =
+  | "neon-license"
+  | "civic-profile"
+  | "travel-pass"
+  | "jp-formal"
+  | "win95"
+  | "winxp"
+  | "win-aero";
 
 export type ImageShape = "circle" | "rounded" | "square";
 
